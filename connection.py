@@ -1,0 +1,4 @@
+import pymysql
+def connect():
+    conn = pymysql.connect(host='127.0.0.1',user='root',password='',database= 'private_party')
+    return conn
